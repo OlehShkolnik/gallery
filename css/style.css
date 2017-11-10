@@ -1,0 +1,106 @@
+/*==== maine ====*/
+
+.maine {
+    width: 1024px;
+    height: 100%;
+    cursor: default;
+    margin: auto auto;
+    background-color: #fff;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.row-maine {
+    width: 1024px;
+}
+
+.head {
+    display: flex;
+
+}
+
+.head h1 {
+    font-family: "Pathway Gothic One", sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    color: #263555;
+    text-transform: uppercase;
+    margin-left: 50px;
+    margin-top: 100px;
+}
+
+.row-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.row-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.row-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.zoom {
+    display: flex;
+    position: relative;
+    width: 280px;
+    height: 200px;
+}
+
+.zoom a {
+    cursor: zoom-in;
+}
+
+img {
+    display: flex;
+    position: relative;
+    z-index: -1;
+
+}
+
+.zoom:hover {
+    background: hsla(0, 0%, 0%, 0.7);
+}
+
+.scrollTopBtn {
+    width: 1024px;
+    height: 50px;
+}
+
+.scrollTop {
+    display: block;
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: #38afe5;
+    border-radius: 20px;
+    margin-top: 120px;
+    margin-left: 950px;
+    top: 550px;
+    right: 440px;
+}
+
+.scrollTop a {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 8px;
+    transform: rotate(-135deg);
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.scrollTop a:hover {
+    padding: 9px;
+}
